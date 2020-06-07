@@ -99,7 +99,7 @@ class Flogin extends  Component{
         passwordConfirmValid = false;
         errorMsg.passwordConfirm = 'Passwords do not match'
       }
-  
+        console.log("bgj")
       this.setState({passwordConfirmValid, errorMsg}, this.validateForm);
     }
         render(){
